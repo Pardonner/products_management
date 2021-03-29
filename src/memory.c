@@ -5,7 +5,7 @@
 
 extern int errno;
 
-void freePointer(void **pointer)
+void freePointer(char **pointer)
 {
 	free(*pointer);
 	*pointer = NULL;
